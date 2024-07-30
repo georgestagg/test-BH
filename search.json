@@ -4,6 +4,6 @@
     "href": "index.html",
     "title": "Shinylive in Quarto",
     "section": "",
-    "text": "#| viewerHeight: 600\n#| components: [editor, viewer]\n#| standalone: true\nlibrary(shiny)\nlibrary(shinyWidgets)\nlibrary(BH)\n\nui &lt;- fluidPage(\nmaterialSwitch(inputId = \"id\", label = \"Primary switch\", status = \"danger\")\n)\n\nserver &lt;- function(input, output) {\n}\n\nshinyApp(ui = ui, server = server)"
+    "text": "#| viewerHeight: 600\n#| components: [editor, viewer]\n#| standalone: true\nlibrary(shiny)\nlibrary(shinyWidgets)\n\nui &lt;- fluidPage(\nmaterialSwitch(inputId = \"id\", label = \"Primary switch\", status = \"danger\")\n)\n\nserver &lt;- function(input, output) {\n}\n\nshinyApp(ui = ui, server = server)"
   }
 ]
